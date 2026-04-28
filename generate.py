@@ -62,7 +62,7 @@ def main():
         model_path=LOCAL_MODEL_PATH,
         questions=ALL_QUESTIONS,
         interface=interface,
-        verbose=DEBUG_MODE
+        verbose=False,
     )
 
     save_to_csv(all_results, CSV_OUTPUT_PATH)
